@@ -1,0 +1,10 @@
+.title{
+    font-size: 45px;
+    color:#fff;
+    background-color: coral;
+    padding: 50px;
+    width: 600px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom : 30px;
+}
