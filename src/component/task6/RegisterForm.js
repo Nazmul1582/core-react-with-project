@@ -86,7 +86,7 @@ class RegisterFrom extends Component{
                         onChange = {this.changeHandler} />
                     </div>
                     <div>
-                        <label>Select your division </label>
+                        <label>Select Your Division </label>
                         <select 
                         name = 'division'
                         value = {this.state.division}
