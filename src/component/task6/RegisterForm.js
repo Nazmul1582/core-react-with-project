@@ -26,9 +26,12 @@ class RegisterFrom extends Component{
                 interested: [...this.state.interested, event.target.value]
             })
         }else{
-            console.log(event.target.checked)
+            this.setState({
+                interested: this.state.interested.filter(ele => (
+                    ele !== event.target.value
+                ))
+            })
         }
-        // console.log(event.target.value, event.target.checked)
     }
 
     submitHandler = (event) => {
@@ -43,7 +46,7 @@ class RegisterFrom extends Component{
                 <h1>Register Form</h1>
                 <form>
                     <div>
-                        <label> Name : </label>
+                        <label> Name </label>
                         <input 
                         type = "text" 
                         name = 'name' 
@@ -51,7 +54,7 @@ class RegisterFrom extends Component{
                         onChange = {this.changeHandler} />
                     </div>
                     <div>
-                        <label>Age : </label>
+                        <label>Age </label>
                         <input 
                         type = 'number'
                         name = 'age'
@@ -60,7 +63,7 @@ class RegisterFrom extends Component{
                         />
                     </div>
                     <div>
-                        <label>Email : </label>
+                        <label>Email </label>
                         <input 
                         type = 'email'
                         name = 'email'
@@ -69,7 +72,7 @@ class RegisterFrom extends Component{
                         />
                     </div>
                     <div>
-                        <label>Password : </label>
+                        <label>Password </label>
                         <input 
                         type = 'password'
                         name = 'password'
@@ -78,7 +81,7 @@ class RegisterFrom extends Component{
                         />
                     </div>
                     <div>
-                        <label> Telephone : </label>
+                        <label> Telephone </label>
                         <input 
                         type = "number" 
                         name = 'telephone' 
@@ -102,7 +105,7 @@ class RegisterFrom extends Component{
                         </select>
                     </div>
                     <div>
-                        <label>Country : </label>
+                        <label>Country  </label>
                         <input 
                         type = "text" 
                         name = 'country' 
