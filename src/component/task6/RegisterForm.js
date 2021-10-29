@@ -39,8 +39,7 @@ class RegisterFrom extends Component{
         console.log(this.state)
     }
 
-    render(){
-        
+    render(){        
         return (
             <div className = 'container'>
                 <h1>Register Form</h1>

@@ -1,6 +1,7 @@
 import './App.css';
+import UnControlledForm from './component/class6/Form/UnControlledForm';
 // import ControlledForm from './component/class6/Form/ControlledForm';
-import RegisterFrom from './component/task6/RegisterForm';
+// import RegisterFrom from './component/task6/RegisterForm';
 // import Button from './component/class6/button/Button';
 // import InlineCssComp from './component/class6/InlineCssComp';
 // import CssStyleSheet from './component/class6/CssStyleSheet';
@@ -45,7 +46,8 @@ function App() {
       <Button /> */}
 
       {/* <ControlledForm /> */}
-      <RegisterFrom />
+      {/* <RegisterFrom /> */}
+      <UnControlledForm />
 
     </div>
   );
