@@ -1,5 +1,6 @@
 import './App.css';
-import UnControlledForm from './component/class6/Form/UnControlledForm';
+// import UnControlledForm from './component/class6/Form/UnControlledForm';
+import MountingComp from './component/class8/LifeCycle/MountingComp';
 // import ControlledForm from './component/class6/Form/ControlledForm';
 // import RegisterFrom from './component/task6/RegisterForm';
 // import Button from './component/class6/button/Button';
@@ -47,7 +48,9 @@ function App() {
 
       {/* <ControlledForm /> */}
       {/* <RegisterFrom /> */}
-      <UnControlledForm />
+      {/* <UnControlledForm /> */}
+      <MountingComp />
+
 
     </div>
   );
