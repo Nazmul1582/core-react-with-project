@@ -1,6 +1,8 @@
 import './App.css';
-import FragmentComp from './component/class8/Fragment/FragmentComp';
-import Table from './component/class8/Fragment/Table';
+import MainComp from './component/class10/PureComponent/MainComp';
+import InputRefComp from './component/class10/Ref/InputRefComp';
+// import FragmentComp from './component/class8/Fragment/FragmentComp';
+// import Table from './component/class8/Fragment/Table';
 // import UnControlledForm from './component/class6/Form/UnControlledForm';
 // import MountingComp from './component/class8/LifeCycle/MountingComp';
 // import UnmountComp from './component/class8/LifeCycle/UnmountComp';
@@ -57,7 +59,10 @@ function App() {
       {/* <UpdatingPhase /> */}
       {/* <UnmountComp /> */}
       {/* <FragmentComp /> */}
-      <Table />
+      {/* <Table /> */}
+      {/* <MainComp /> */}
+      <InputRefComp />
+
 
     </div>
   );
