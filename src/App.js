@@ -1,8 +1,8 @@
 import './App.css';
-import InputRefComp from './component/class11/Ref/InputRefComp';
-import MainComp from './component/class10/PureComponent/MainComp';
-import RefsComp from './component/class11/Ref/RefsComp';
 import ParentComponent from './component/class11/ErrorHandling/ParentComponent';
+// import InputRefComp from './component/class10/Ref/InputRefComp';
+// import MainComp from './component/class10/PureComponent/MainComp';
+// import RefsComp from './component/class10/Ref/RefsComp';
 // import FragmentComp from './component/class8/Fragment/FragmentComp';
 // import Table from './component/class8/Fragment/Table';
 // import UnControlledForm from './component/class7/Form/UnControlledForm';
@@ -65,8 +65,8 @@ function App() {
 
       {/* <MainComp /> */}
       {/* <InputRefComp /> */}
-
       {/* <RefsComp /> */}
+
       <ParentComponent />
 
     </div>
