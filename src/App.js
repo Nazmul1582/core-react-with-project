@@ -1,5 +1,7 @@
 import './App.css';
 import ParentComponent from './component/class11/ErrorHandling/ParentComponent';
+import OnClick from './component/class12/HOC/OnClick';
+import OnMouseOver from './component/class12/HOC/OnMouseOver';
 // import InputRefComp from './component/class10/Ref/InputRefComp';
 // import MainComp from './component/class10/PureComponent/MainComp';
 // import RefsComp from './component/class10/Ref/RefsComp';
@@ -14,6 +16,8 @@ import ParentComponent from './component/class11/ErrorHandling/ParentComponent';
 // import Button from './component/class6/button/Button';
 // import InlineCssComp from './component/class6/InlineCssComp';
 // import CssStyleSheet from './component/class6/CssStyleSheet';
+// import PrevState from './component/class5/PrevState';
+// import ListRender from './component/class5/ListRender';
 // import Hello from './component/Hello';
 // import Hi from "./component/Hi";
 // import MyClassComp from "./component/MyClassComp";
@@ -22,9 +26,7 @@ import ParentComponent from './component/class11/ErrorHandling/ParentComponent';
 // import LayoutComp from './component/LayoutComp';
 // import ChildComp from './component/ChildComp';
 // import ParentComp from './component/ParentComp';
-// import PrevState from './component/class5/PrevState';
 // import Task from './component/Task';
-// import ListRender from './component/class5/ListRender';
 // import Table from './component/task/Table';
 
 
@@ -67,7 +69,10 @@ function App() {
       {/* <InputRefComp /> */}
       {/* <RefsComp /> */}
 
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+
+      <OnClick age={10} />
+      <OnMouseOver color="red" />
 
     </div>
   );
