@@ -1,7 +1,11 @@
 import './App.css';
-import ParentComponent from './component/class11/ErrorHandling/ParentComponent';
-import OnClick from './component/class12/HOC/OnClick';
-import OnMouseOver from './component/class12/HOC/OnMouseOver';
+import ClickCounter from './component/class13/RenderProps/ClickCounter';
+import CountingComp from './component/class13/RenderProps/CountingComp';
+import HoverCounter from './component/class13/RenderProps/HoverCounter';
+import ProductComp from './component/class13/RenderProps/ProductComp';
+// import OnClick from './component/class12/HOC/OnClick';
+// import OnMouseOver from './component/class12/HOC/OnMouseOver';
+// import ParentComponent from './component/class11/ErrorHandling/ParentComponent';
 // import InputRefComp from './component/class10/Ref/InputRefComp';
 // import MainComp from './component/class10/PureComponent/MainComp';
 // import RefsComp from './component/class10/Ref/RefsComp';
@@ -71,8 +75,12 @@ function App() {
 
       {/* <ParentComponent /> */}
 
-      <OnClick age={10} />
-      <OnMouseOver color="red" />
+      {/* <OnClick age={10} />
+      <OnMouseOver color="red" /> */}
+
+      {/* <ProductComp name={(isAvailable) => isAvailable ?'Laptop':'not available'} /> */}
+      <CountingComp render={(count,handler) => <ClickCounter count={count} handler={handler} />} />
+      <CountingComp render={(count, handler) => <HoverCounter count={count} handler={handler} />} />
 
     </div>
   );

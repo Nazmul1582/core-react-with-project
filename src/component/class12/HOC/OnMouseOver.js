@@ -1,18 +1,7 @@
 import React, { Component } from 'react';
 import WithCounter from './WithCounter';
 class OnMouseOver extends Component{
-    constructor(){
-        super();
-        this.state = {
-            count: 0
-        }
-    }
 
-    incrementHandler = () => {
-        this.setState((prevState) => {
-            return{ count: prevState.count + 5 }
-        })
-    }
     render(){
         const { name, count, handler, color } = this.props;
         return(
