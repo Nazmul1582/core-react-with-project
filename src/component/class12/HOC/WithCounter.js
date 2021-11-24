@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const WithCounter = (WrrepedComponent, value) => {
+const WithCounter = (wrappedComponent, value) => {
     class NewComp extends Component{
         constructor(){
             super();
@@ -14,7 +14,7 @@ const WithCounter = (WrrepedComponent, value) => {
             })
         }
         render(){
-            return <WrrepedComponent 
+            return <wrappedComponent 
             name = "Next Topper" 
             count = {this.state.count}
             handler = {this.incrementHandler}

@@ -1,5 +1,8 @@
 import './App.css';
 import ParentComp from './component/class14/contextAPI/ParentComp';
+import AdmitTeacher from './component/class15/HttpRequest/AdmitTeacher';
+import AllPost from './component/class15/HttpRequest/AllPost';
+import AllStudent from './component/class15/HttpRequest/AllStudent';
 // import ClickCounter from './component/class13/RenderProps/ClickCounter';
 // import CountingComp from './component/class13/RenderProps/CountingComp';
 // import HoverCounter from './component/class13/RenderProps/HoverCounter';
@@ -83,8 +86,11 @@ function App() {
       {/* <CountingComp render={(count,handler) => <ClickCounter count={count} handler={handler} />} />
       <CountingComp render={(count, handler) => <HoverCounter count={count} handler={handler} />} /> */}
 
-      <ParentComp />
+      {/* <ParentComp /> */}
 
+      {/* <AllPost /> */}
+      {/* <AllStudent /> */}
+      <AdmitTeacher />
     </div>
   );
 }
