@@ -1,8 +1,11 @@
 import './App.css';
-import ParentComp from './component/class14/contextAPI/ParentComp';
-import AdmitTeacher from './component/class15/HttpRequest/AdmitTeacher';
-import AllPost from './component/class15/HttpRequest/AllPost';
-import AllStudent from './component/class15/HttpRequest/AllStudent';
+import UseStateComp from './component/class16/Hooks/UseStateComp';
+import UseSatteWithObjArrComp from './component/class16/Hooks/UseStateWithObjArrComp';
+import UseStateWithPrevStateComp from './component/class16/Hooks/UseStateWithPrevStateComp';
+// import AdmitTeacher from './component/class15/HttpRequest/AdmitTeacher';
+// import AllPost from './component/class15/HttpRequest/AllPost';
+// import AllStudent from './component/class15/HttpRequest/AllStudent';
+// import ParentComp from './component/class14/contextAPI/ParentComp';
 // import ClickCounter from './component/class13/RenderProps/ClickCounter';
 // import CountingComp from './component/class13/RenderProps/CountingComp';
 // import HoverCounter from './component/class13/RenderProps/HoverCounter';
@@ -90,7 +93,12 @@ function App() {
 
       {/* <AllPost /> */}
       {/* <AllStudent /> */}
-      <AdmitTeacher />
+      {/* <AdmitTeacher /> */}
+
+      {/* <UseStateComp /> */}
+      {/* <UseStateWithPrevStateComp /> */}
+      <UseSatteWithObjArrComp />
+
     </div>
   );
 }
