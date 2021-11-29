@@ -1,7 +1,9 @@
 import './App.css';
-import UseStateComp from './component/class16/Hooks/UseStateComp';
-import UseSatteWithObjArrComp from './component/class16/Hooks/UseStateWithObjArrComp';
-import UseStateWithPrevStateComp from './component/class16/Hooks/UseStateWithPrevStateComp';
+import FetchDataById from './component/class16/Hooks/useEffect/FetchDataById';
+import UseEffectDidMountComp from './component/class16/Hooks/useEffect/UseEffectDidMountComp';
+// import UseStateComp from './component/class16/Hooks/UseStateComp';
+// import UseSatteWithObjArrComp from './component/class16/Hooks/UseStateWithObjArrComp';
+// import UseStateWithPrevStateComp from './component/class16/Hooks/UseStateWithPrevStateComp';
 // import AdmitTeacher from './component/class15/HttpRequest/AdmitTeacher';
 // import AllPost from './component/class15/HttpRequest/AllPost';
 // import AllStudent from './component/class15/HttpRequest/AllStudent';
@@ -97,7 +99,11 @@ function App() {
 
       {/* <UseStateComp /> */}
       {/* <UseStateWithPrevStateComp /> */}
-      <UseSatteWithObjArrComp />
+      {/* <UseSatteWithObjArrComp /> */}
+
+      {/* <UseEffectDidMountComp /> */}
+      <FetchDataById />
+
 
     </div>
   );
