@@ -5,9 +5,9 @@ import UseReducerComp from './component/class16/Hooks/UseReducerHook/UseReducerC
 // import ContextParentComp from './component/class16/Hooks/useContext/ContextParentComp';
 // import FetchDataById from './component/class16/Hooks/useEffect/FetchDataById';
 // import UseEffectDidMountComp from './component/class16/Hooks/useEffect/UseEffectDidMountComp';
-// import UseStateComp from './component/class16/Hooks/UseStateComp';
-// import UseSatteWithObjArrComp from './component/class16/Hooks/UseStateWithObjArrComp';
-// import UseStateWithPrevStateComp from './component/class16/Hooks/UseStateWithPrevStateComp';
+// import UseStateComp from './component/class16/Hooks/UseState/UseStateComp';
+// import UseSatteWithObjArrComp from './component/class16/Hooks/UseState/UseStateWithObjArrComp';
+// import UseStateWithPrevStateComp from './component/class16/Hooks/UseState/UseStateWithPrevStateComp';
 // import AdmitTeacher from './component/class15/HttpRequest/AdmitTeacher';
 // import AllPost from './component/class15/HttpRequest/AllPost';
 // import AllStudent from './component/class15/HttpRequest/AllStudent';
