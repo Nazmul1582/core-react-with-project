@@ -1,6 +1,10 @@
 import './App.css';
-import FetchDataById from './component/class16/Hooks/useEffect/FetchDataById';
-import UseEffectDidMountComp from './component/class16/Hooks/useEffect/UseEffectDidMountComp';
+import ParentUseReducerWithUseContext from './component/class16/Hooks/UseReducerHook/ParentUseReducerWithUseContext';
+import MultipleUseReducer from './component/class16/Hooks/UseReducerHook/MultipleUseReducer';
+import UseReducerComp from './component/class16/Hooks/UseReducerHook/UseReducerComp';
+// import ContextParentComp from './component/class16/Hooks/useContext/ContextParentComp';
+// import FetchDataById from './component/class16/Hooks/useEffect/FetchDataById';
+// import UseEffectDidMountComp from './component/class16/Hooks/useEffect/UseEffectDidMountComp';
 // import UseStateComp from './component/class16/Hooks/UseStateComp';
 // import UseSatteWithObjArrComp from './component/class16/Hooks/UseStateWithObjArrComp';
 // import UseStateWithPrevStateComp from './component/class16/Hooks/UseStateWithPrevStateComp';
@@ -102,7 +106,14 @@ function App() {
       {/* <UseSatteWithObjArrComp /> */}
 
       {/* <UseEffectDidMountComp /> */}
-      <FetchDataById />
+      {/* <FetchDataById /> */}
+
+      {/* <ContextParentComp /> */}
+
+      {/* <UseReducerComp /> */}
+      {/* <MultipleUseReducer /> */}
+      <ParentUseReducerWithUseContext />
+
 
 
     </div>
