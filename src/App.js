@@ -2,6 +2,8 @@ import './App.css';
 import ParentUseReducerWithUseContext from './component/class16/Hooks/UseReducerHook/ParentUseReducerWithUseContext';
 import MultipleUseReducer from './component/class16/Hooks/UseReducerHook/MultipleUseReducer';
 import UseReducerComp from './component/class16/Hooks/UseReducerHook/UseReducerComp';
+import DataFetchComp from './component/class16/Hooks/UseReducerHook/DataFetchComp';
+import DataFetchUsingReducer from './component/class16/Hooks/UseReducerHook/DataFetchUsingReducer';
 // import ContextParentComp from './component/class16/Hooks/useContext/ContextParentComp';
 // import FetchDataById from './component/class16/Hooks/useEffect/FetchDataById';
 // import UseEffectDidMountComp from './component/class16/Hooks/useEffect/UseEffectDidMountComp';
@@ -112,9 +114,10 @@ function App() {
 
       {/* <UseReducerComp /> */}
       {/* <MultipleUseReducer /> */}
-      <ParentUseReducerWithUseContext />
-
-
+      {/* <ParentUseReducerWithUseContext /> */}
+      
+      {/* <DataFetchComp /> */}
+      <DataFetchUsingReducer />
 
     </div>
   );
