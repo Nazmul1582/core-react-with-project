@@ -4,6 +4,10 @@ import MultipleUseReducer from './component/class16/Hooks/UseReducerHook/Multipl
 import UseReducerComp from './component/class16/Hooks/UseReducerHook/UseReducerComp';
 import DataFetchComp from './component/class16/Hooks/UseReducerHook/DataFetchComp';
 import DataFetchUsingReducer from './component/class16/Hooks/UseReducerHook/DataFetchUsingReducer';
+import LoginComp from './component/class16/Hooks/customHook/LoginComp';
+import LoginWithCustomHook from './component/class16/Hooks/customHook/LoginWithCustomHook';
+import UseRefComp from './component/class16/Hooks/useRef/UseRefComp';
+import IncrementComp from './component/class16/Hooks/customHook/taskOfCustomHook/IncrementComp';
 // import ContextParentComp from './component/class16/Hooks/useContext/ContextParentComp';
 // import FetchDataById from './component/class16/Hooks/useEffect/FetchDataById';
 // import UseEffectDidMountComp from './component/class16/Hooks/useEffect/UseEffectDidMountComp';
@@ -116,8 +120,15 @@ function App() {
       {/* <MultipleUseReducer /> */}
       {/* <ParentUseReducerWithUseContext /> */}
       
+      {/* <UseRefComp /> */}
+
       {/* <DataFetchComp /> */}
-      <DataFetchUsingReducer />
+      {/* <DataFetchUsingReducer /> */}
+      {/* <LoginComp /> */}
+      <LoginWithCustomHook />
+
+      <IncrementComp />
+
 
     </div>
   );
