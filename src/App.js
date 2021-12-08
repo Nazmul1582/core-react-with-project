@@ -1,13 +1,15 @@
 import './App.css';
-import ParentUseReducerWithUseContext from './component/class16/Hooks/UseReducerHook/ParentUseReducerWithUseContext';
-import MultipleUseReducer from './component/class16/Hooks/UseReducerHook/MultipleUseReducer';
-import UseReducerComp from './component/class16/Hooks/UseReducerHook/UseReducerComp';
-import DataFetchComp from './component/class16/Hooks/UseReducerHook/DataFetchComp';
-import DataFetchUsingReducer from './component/class16/Hooks/UseReducerHook/DataFetchUsingReducer';
-import LoginComp from './component/class16/Hooks/customHook/LoginComp';
-import LoginWithCustomHook from './component/class16/Hooks/customHook/LoginWithCustomHook';
-import UseRefComp from './component/class16/Hooks/useRef/UseRefComp';
-import IncrementComp from './component/class16/Hooks/customHook/taskOfCustomHook/IncrementComp';
+import MemoCounter from './component/class16/Hooks/useMemo/MemoCounter';
+import ParentUseCallBack from './component/class16/Hooks/useCallBack/ParentUseCallBack';
+// import IncrementComp from './component/class16/Hooks/customHook/taskOfCustomHook/IncrementComp';
+// import ParentUseReducerWithUseContext from './component/class16/Hooks/UseReducerHook/ParentUseReducerWithUseContext';
+// import MultipleUseReducer from './component/class16/Hooks/UseReducerHook/MultipleUseReducer';
+// import UseReducerComp from './component/class16/Hooks/UseReducerHook/UseReducerComp';
+// import DataFetchComp from './component/class16/Hooks/UseReducerHook/DataFetchComp';
+// import DataFetchUsingReducer from './component/class16/Hooks/UseReducerHook/DataFetchUsingReducer';
+// import LoginComp from './component/class16/Hooks/customHook/LoginComp';
+// import LoginWithCustomHook from './component/class16/Hooks/customHook/LoginWithCustomHook';
+// import UseRefComp from './component/class16/Hooks/useRef/UseRefComp';
 // import ContextParentComp from './component/class16/Hooks/useContext/ContextParentComp';
 // import FetchDataById from './component/class16/Hooks/useEffect/FetchDataById';
 // import UseEffectDidMountComp from './component/class16/Hooks/useEffect/UseEffectDidMountComp';
@@ -125,10 +127,12 @@ function App() {
       {/* <DataFetchComp /> */}
       {/* <DataFetchUsingReducer /> */}
       {/* <LoginComp /> */}
-      <LoginWithCustomHook />
+      {/* <LoginWithCustomHook /> */}
 
-      <IncrementComp />
+      {/* <IncrementComp /> */}
 
+      {/* <ParentUseCallBack /> */}
+      <MemoCounter />
 
     </div>
   );
