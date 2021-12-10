@@ -1,6 +1,8 @@
 import './App.css';
-import MemoCounter from './component/class16/Hooks/useMemo/MemoCounter';
-import ParentUseCallBack from './component/class16/Hooks/useCallBack/ParentUseCallBack';
+import CounterCustomHook1 from './component/class16/Hooks/customHook/useCounterHook/CounterCustomHook1';
+import CounterCustomHook2 from './component/class16/Hooks/customHook/useCounterHook/CounterCustomHook2';
+// import MemoCounter from './component/class16/Hooks/useMemo/MemoCounter';
+// import ParentUseCallBack from './component/class16/Hooks/useCallBack/ParentUseCallBack';
 // import IncrementComp from './component/class16/Hooks/customHook/taskOfCustomHook/IncrementComp';
 // import ParentUseReducerWithUseContext from './component/class16/Hooks/UseReducerHook/ParentUseReducerWithUseContext';
 // import MultipleUseReducer from './component/class16/Hooks/UseReducerHook/MultipleUseReducer';
@@ -132,7 +134,10 @@ function App() {
       {/* <IncrementComp /> */}
 
       {/* <ParentUseCallBack /> */}
-      <MemoCounter />
+      {/* <MemoCounter /> */}
+
+      <CounterCustomHook1 />
+      <CounterCustomHook2 />
 
     </div>
   );
