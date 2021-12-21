@@ -1,6 +1,10 @@
 import './App.css';
-import CounterCustomHook1 from './component/class16/Hooks/customHook/useCounterHook/CounterCustomHook1';
-import CounterCustomHook2 from './component/class16/Hooks/customHook/useCounterHook/CounterCustomHook2';
+import { Provider } from 'react-redux';
+import { store } from './redux/store';
+import AnotherProductComp from './component/reduxcomp/hook/AnotherProductComp';
+// import ProductComp from './component/reduxcomp/ProductComp';
+// import CounterCustomHook1 from './component/class16/Hooks/customHook/useCounterHook/CounterCustomHook1';
+// import CounterCustomHook2 from './component/class16/Hooks/customHook/useCounterHook/CounterCustomHook2';
 // import MemoCounter from './component/class16/Hooks/useMemo/MemoCounter';
 // import ParentUseCallBack from './component/class16/Hooks/useCallBack/ParentUseCallBack';
 // import IncrementComp from './component/class16/Hooks/customHook/taskOfCustomHook/IncrementComp';
@@ -59,6 +63,7 @@ import CounterCustomHook2 from './component/class16/Hooks/customHook/useCounterH
 
 function App() {
   return (
+    <Provider store={store} >
     <div className="App">
       {/* <h1>Welcome All React Learners</h1>
       <h3 className = 'hello'>Hello!</h3> */}
@@ -136,10 +141,15 @@ function App() {
       {/* <ParentUseCallBack /> */}
       {/* <MemoCounter /> */}
 
-      <CounterCustomHook1 />
-      <CounterCustomHook2 />
+      {/* <CounterCustomHook1 />
+      <CounterCustomHook2 /> */}
+
+      {/* <ProductComp /> */}
+      <AnotherProductComp />
+
 
     </div>
+    </Provider>
   );
 }
 
