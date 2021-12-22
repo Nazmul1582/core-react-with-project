@@ -1,7 +1,8 @@
 import './App.css';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
-import AnotherProductComp from './component/reduxcomp/hook/AnotherProductComp';
+import PostComp from './component/reduxcomp/hook/PostComp';
+// import AnotherProductComp from './component/reduxcomp/hook/AnotherProductComp';
 // import ProductComp from './component/reduxcomp/ProductComp';
 // import CounterCustomHook1 from './component/class16/Hooks/customHook/useCounterHook/CounterCustomHook1';
 // import CounterCustomHook2 from './component/class16/Hooks/customHook/useCounterHook/CounterCustomHook2';
@@ -145,8 +146,8 @@ function App() {
       <CounterCustomHook2 /> */}
 
       {/* <ProductComp /> */}
-      <AnotherProductComp />
-
+      {/* <AnotherProductComp /> */}
+      <PostComp />
 
     </div>
     </Provider>

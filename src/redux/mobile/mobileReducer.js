@@ -8,7 +8,7 @@ const reducer = (state = initialState, action) => {
     switch(action.type){
         case BUY_MOBILE :
             return {
-                ...state, totalMobile: state.totalMobile - 1
+                ...state, totalMobile: state.totalMobile - action.payload
             }
         default : return state 
     }
